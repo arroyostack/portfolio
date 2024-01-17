@@ -3,17 +3,17 @@ import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
 const contacts = [
 	{
 		id: 1,
-		name: 'Your Address, Your City, Your Country',
+		name: 'Madrid, Spain',
 		icon: <FiMapPin />,
 	},
 	{
 		id: 2,
-		name: 'email@domain.com',
+		name: 'arroyostack@gmail.com',
 		icon: <FiMail />,
 	},
 	{
 		id: 3,
-		name: '555 8888 888',
+		name: '+34 613 32 57 69',
 		icon: <FiPhone />,
 	},
 ];
@@ -25,17 +25,27 @@ const ContactDetails = () => {
 				<h2 className="font-general-medium text-2xl text-primary-dark dark:text-primary-light mt-12 mb-8">
 					Contact details
 				</h2>
+				<a
+					target="blank"
+					href="https://www.linkedin.com/in/elhadjarroyo/" className='py-3 text-x' style={ { color: '#F7D100' } }>Linkedin</a>
+				<br />
+				<br />
+				<a
+					target="blank"
+					href="mailto:arroyostack@gmail.com" className='py-3 text-x' style={ { color: '#D00100' } }>Gmail</a>
+				<br />
+				<br />
 				<ul className="font-general-regular">
-					{contacts.map((contact) => (
-						<li className="flex " key={contact.id}>
+					{ contacts.map( ( contact ) => (
+						<li className="flex " key={ contact.id }>
 							<i className="text-2xl text-gray-500 dark:text-gray-400 mr-4">
-								{contact.icon}
+								{ contact.icon }
 							</i>
 							<span className="text-lg mb-4 text-ternary-dark dark:text-ternary-light">
-								{contact.name}
+								{ contact.name }
 							</span>
 						</li>
-					))}
+					) ) }
 				</ul>
 			</div>
 		</div>

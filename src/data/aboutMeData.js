@@ -1,10 +1,10 @@
 export const aboutMeData = [
 	{
 		id: 1,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+		bio: 'Experienced full-stack developer with a strong passion for crafting reusable, developer-friendly code and embracing efficient composition patterns. Proficient in a range of technologies including JavaScript, TypeScript, React.js, Vue.js, Jest, Python, Flask, and SQLAlchemy. Committed to delivering high-quality web applications with a focus on code maintainability and user-centric design.',
 	},
 	{
 		id: 2,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+		bio: 'I have recently finished successfully a FullStack Bootcamp at 4geeks Academy where I have reinforced the knowledge I had plus also have learned Backend technologies and development wordflows. My backend development technologies are, Python, Flask, MySql, SQLALchemy.',
 	},
 ];
